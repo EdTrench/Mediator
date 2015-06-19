@@ -1,6 +1,6 @@
 ﻿namespace Mediator.Framework.UserControls
 {
-    partial class Races
+    partial class Riders
     {
         /// <summary> 
         /// Required designer variable.

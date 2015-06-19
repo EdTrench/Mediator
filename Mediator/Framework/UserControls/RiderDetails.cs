@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Mediator.Framework.UserControls
 {
-    public partial class RaceDetails : UserControl
+    public partial class RiderDetails : UserControl
     {
-        public RaceDetails()
+        public RiderDetails()
         {
             InitializeComponent();
         }

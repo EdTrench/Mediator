@@ -11,7 +11,7 @@ using Mediator.Model;
 
 namespace Mediator.Framework.UserControls
 {
-    public partial class Races : UserControl
+    public partial class Riders : UserControl
     {
         readonly List<Rider> _riders = new List<Rider>()
         {
@@ -20,7 +20,7 @@ namespace Mediator.Framework.UserControls
             new Rider {Name = "Sarah Clare Trenchard"}
         };
         
-        public Races()
+        public Riders()
         {
             InitializeComponent();
             BindData();

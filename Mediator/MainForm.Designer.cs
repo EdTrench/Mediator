@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.raceDetails1 = new Framework.UserControls.RaceDetails();
-            this.ridersInRace1 = new Framework.UserControls.RidersInRace();
-            this.races1 = new Framework.UserControls.Races();
+            this.raceDetails1 = new Framework.UserControls.RiderDetails();
+            this.ridersInRace1 = new Framework.UserControls.RacesForRider();
+            this.races1 = new Framework.UserControls.Riders();
             this.SuspendLayout();
             // 
             // raceDetails1
@@ -70,9 +70,9 @@
 
         #endregion
 
-        private Framework.UserControls.Races races1;
-        private Framework.UserControls.RidersInRace ridersInRace1;
-        private Framework.UserControls.RaceDetails raceDetails1;
+        private Framework.UserControls.Riders races1;
+        private Framework.UserControls.RacesForRider ridersInRace1;
+        private Framework.UserControls.RiderDetails raceDetails1;
     }
 }
 

@@ -1,6 +1,6 @@
 ﻿namespace Mediator.Framework.UserControls
 {
-    partial class RaceDetails
+    partial class RiderDetails
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,20 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblRaceName = new System.Windows.Forms.Label();
+            this.lblHeight = new System.Windows.Forms.Label();
             this.txtRaceName = new System.Windows.Forms.TextBox();
-            this.txtRaceLength = new System.Windows.Forms.TextBox();
-            this.lblRaceLength = new System.Windows.Forms.Label();
+            this.txtWeight = new System.Windows.Forms.TextBox();
+            this.lblWeight = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // lblRaceName
+            // lblHeight
             // 
-            this.lblRaceName.AutoSize = true;
-            this.lblRaceName.Location = new System.Drawing.Point(8, 12);
-            this.lblRaceName.Name = "lblRaceName";
-            this.lblRaceName.Size = new System.Drawing.Size(38, 13);
-            this.lblRaceName.TabIndex = 0;
-            this.lblRaceName.Text = "Name:";
+            this.lblHeight.AutoSize = true;
+            this.lblHeight.Location = new System.Drawing.Point(8, 12);
+            this.lblHeight.Name = "lblHeight";
+            this.lblHeight.Size = new System.Drawing.Size(41, 13);
+            this.lblHeight.TabIndex = 0;
+            this.lblHeight.Text = "Height:";
             // 
             // txtRaceName
             // 
@@ -50,31 +50,31 @@
             this.txtRaceName.Size = new System.Drawing.Size(128, 20);
             this.txtRaceName.TabIndex = 1;
             // 
-            // txtRaceLength
+            // txtWeight
             // 
-            this.txtRaceLength.Location = new System.Drawing.Point(62, 35);
-            this.txtRaceLength.Name = "txtRaceLength";
-            this.txtRaceLength.Size = new System.Drawing.Size(128, 20);
-            this.txtRaceLength.TabIndex = 3;
+            this.txtWeight.Location = new System.Drawing.Point(62, 35);
+            this.txtWeight.Name = "txtWeight";
+            this.txtWeight.Size = new System.Drawing.Size(128, 20);
+            this.txtWeight.TabIndex = 3;
             // 
-            // lblRaceLength
+            // lblWeight
             // 
-            this.lblRaceLength.AutoSize = true;
-            this.lblRaceLength.Location = new System.Drawing.Point(8, 38);
-            this.lblRaceLength.Name = "lblRaceLength";
-            this.lblRaceLength.Size = new System.Drawing.Size(43, 13);
-            this.lblRaceLength.TabIndex = 2;
-            this.lblRaceLength.Text = "Length:";
+            this.lblWeight.AutoSize = true;
+            this.lblWeight.Location = new System.Drawing.Point(8, 38);
+            this.lblWeight.Name = "lblWeight";
+            this.lblWeight.Size = new System.Drawing.Size(44, 13);
+            this.lblWeight.TabIndex = 2;
+            this.lblWeight.Text = "Weight:";
             // 
-            // RaceDetails
+            // RiderDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.txtRaceLength);
-            this.Controls.Add(this.lblRaceLength);
+            this.Controls.Add(this.txtWeight);
+            this.Controls.Add(this.lblWeight);
             this.Controls.Add(this.txtRaceName);
-            this.Controls.Add(this.lblRaceName);
-            this.Name = "RaceDetails";
+            this.Controls.Add(this.lblHeight);
+            this.Name = "RiderDetails";
             this.Size = new System.Drawing.Size(207, 62);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -83,9 +83,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblRaceName;
+        private System.Windows.Forms.Label lblHeight;
         private System.Windows.Forms.TextBox txtRaceName;
-        private System.Windows.Forms.TextBox txtRaceLength;
-        private System.Windows.Forms.Label lblRaceLength;
+        private System.Windows.Forms.TextBox txtWeight;
+        private System.Windows.Forms.Label lblWeight;
     }
 }
