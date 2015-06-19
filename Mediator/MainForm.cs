@@ -15,6 +15,7 @@ namespace Mediator
         public MainForm()
         {
             InitializeComponent();
+            
         }
     }
 }

@@ -28,17 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cboRiders = new System.Windows.Forms.ComboBox();
             this.lblRider = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // cboRiders
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(44, 3);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(240, 21);
-            this.comboBox1.TabIndex = 0;
+            this.cboRiders.FormattingEnabled = true;
+            this.cboRiders.Location = new System.Drawing.Point(44, 3);
+            this.cboRiders.Name = "cboRiders";
+            this.cboRiders.Size = new System.Drawing.Size(240, 21);
+            this.cboRiders.TabIndex = 0;
+            this.cboRiders.SelectedIndexChanged += new System.EventHandler(this.cboRiders_SelectedIndexChanged);
             // 
             // lblRider
             // 
@@ -54,7 +55,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.lblRider);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cboRiders);
             this.Name = "Races";
             this.Size = new System.Drawing.Size(287, 27);
             this.ResumeLayout(false);
@@ -64,7 +65,7 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cboRiders;
         private System.Windows.Forms.Label lblRider;
     }
 }
