@@ -2,9 +2,9 @@
 
 namespace Mediator.Model
 {
-    public class Race
+    public class Race: Model
     {
         public string Name { get; set; }
-        public DateTime Date { get; set; }
+        public DateTime RaceDate { get; set; }
     }
 }

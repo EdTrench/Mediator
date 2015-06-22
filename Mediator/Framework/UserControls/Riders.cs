@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Mediator.Model;
 
@@ -34,7 +28,7 @@ namespace Mediator.Framework.UserControls
 
         private void cboRiders_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //Mediator.GetInstance().OnRaceChanged(this, (Rider)cboRiders.SelectedItem);
+            Mediator.GetInstance().OnRiderChanged(this, (Rider)cboRiders.SelectedItem);
         }
     }
 }

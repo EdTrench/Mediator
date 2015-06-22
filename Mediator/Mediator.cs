@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Mediator
 {
@@ -19,7 +15,7 @@ namespace Mediator
         //Instance functionality
         public event EventHandler<RiderChangedEventArgs> RiderChanged;
 
-        public void OnRaceChanged(object sender, Model.Rider rider)
+        public void OnRiderChanged(object sender, Model.Rider rider)
         {
             var riderChangedDelegate = RiderChanged as EventHandler<RiderChangedEventArgs>;
             if (riderChangedDelegate != null)

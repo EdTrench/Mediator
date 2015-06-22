@@ -1,6 +1,6 @@
-﻿namespace Mediator
+﻿namespace Mediator.View
 {
-    partial class MainForm
+    partial class RiderRaces
     {
         /// <summary>
         /// Required designer variable.
@@ -54,7 +54,7 @@
             this.races1.Size = new System.Drawing.Size(287, 27);
             this.races1.TabIndex = 0;
             // 
-            // MainForm
+            // RiderRaces
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -62,8 +62,8 @@
             this.Controls.Add(this.raceDetails1);
             this.Controls.Add(this.ridersInRace1);
             this.Controls.Add(this.races1);
-            this.Name = "MainForm";
-            this.Text = "MainForm";
+            this.Name = "RiderRaces";
+            this.Text = "Rider Races";
             this.ResumeLayout(false);
 
         }
