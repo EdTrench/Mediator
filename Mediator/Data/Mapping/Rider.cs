@@ -6,6 +6,7 @@ namespace Mediator.Data.Mapping
     {
         public Rider()
         {
+            Table("rider.Riders");
             Id(x => x.Id).GeneratedBy.Identity();
             Map(x => x.Name);
             Map(x => x.DateOfBirth);

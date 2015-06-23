@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Mediator.View.BaseForms;
+using System;
 using System.Windows.Forms;
 
 namespace Mediator
@@ -16,7 +14,15 @@ namespace Mediator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new View.RiderRaces());
+
+            var session = Data.Helper.OpenSession();
+            var presenter = new Presenter.RiderRaces(session, session.Get<Model.Rider>(1), new BaseForm());
+            var startService = new Service.Start(presenter);
+            //presenter.ExitApplication += delegate
+            //{
+            //    Application.ExitThread();
+            //};
+            Application.Run(startService);
         }
     }
 }

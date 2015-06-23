@@ -65,7 +65,7 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox cboRiders;
+        public System.Windows.Forms.ComboBox cboRiders;
         private System.Windows.Forms.Label lblRider;
     }
 }
